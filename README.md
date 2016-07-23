@@ -1,2 +1,2 @@
 # git
-git how to
+how to use git
