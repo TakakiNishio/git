@@ -7,7 +7,7 @@
 
 4. $ git commit -m "...(comment)"
 
-5. $ git remote origin master ...(http:// remote repository's URL)
+5. $ git remote add origin ...(http:// remote repository's URL) //only one time
 
 6. $ git pull origin master
 
