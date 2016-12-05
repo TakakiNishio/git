@@ -34,3 +34,13 @@ $ git commit -m "rename filename third_robot.urdf to cirkit_unit03.urdf"
 
 push to branch
 $ git push origin fix-discription-file
+
+after merge (switch master and delete branch)
+$ git checkout master
+$ git pull
+
+delete remote repository
+$ git push --delete origin nishio/leg
+
+delete remote repository
+$ git branch -D nishio/leg
