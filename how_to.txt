@@ -28,3 +28,34 @@ $ git pull origin master
 $ git merge --no-ff fix-discription-file
 $ git push origin master
 ----------------------------------------------------------
+add ssh key : visit http://qiita.com/inakadegaebal/items/6dbd96521926cc8df48f
+
+confirm current branch
+$ git branch -a
+
+make another branch
+$ git checkout -b fix-discription-file
+
+rename file names
+$ git mv third_robot.urdf cirkit_unit03.urdf　 (including "git add")
+or
+$ mv third_robot.urdf cirkit_unit03.urdf
+
+stage files
+$ git add -A
+
+commit
+$ git commit -m "rename filename third_robot.urdf to cirkit_unit03.urdf"
+
+push to branch
+$ git push origin fix-discription-file
+
+after merge (switch master and delete branch)
+$ git checkout master
+$ git pull
+
+delete remote repository
+$ git push --delete origin nishio/leg
+
+delete remote repository
+$ git branch -D nishio/leg
