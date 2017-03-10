@@ -27,6 +27,9 @@ $ git checkout master
 $ git pull origin master
 $ git merge --no-ff fix-discription-file
 $ git push origin master
+
+・delete branch
+$ git push --delete origin fix-discription-file
 ----------------------------------------------------------
 add ssh key : visit http://qiita.com/inakadegaebal/items/6dbd96521926cc8df48f
 
