@@ -13,22 +13,22 @@
 7. $ git push origin master
 
 ----------------------------------------------------------
-・confirm current branch
+confirm current branch
 $ git branch -a
 
-・make another branch
+make another branch
 $ git checkout -b fix-discription-file
 
-・push to branch
+push to branch
 $ git push origin fix-discription-file
 
-・merge branch
+merge branch
 $ git checkout master
 $ git pull origin master
 $ git merge --no-ff fix-discription-file
 $ git push origin master
 
-・delete branch
+delete branch
 $ git push --delete origin fix-discription-file
 ----------------------------------------------------------
 add ssh key : visit http://qiita.com/inakadegaebal/items/6dbd96521926cc8df48f
@@ -60,7 +60,7 @@ $ git pull
 delete remote repository
 $ git push --delete origin nishio/leg
 
-delete remote repository
+delete branch
 $ git branch -D nishio/leg
 
 add another repository
