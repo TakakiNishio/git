@@ -44,3 +44,7 @@ $ git push --delete origin nishio/leg
 
 delete remote repository
 $ git branch -D nishio/leg
+
+add another repository
+$ git remote add nishida git@github.com:Nishida-Lab/grasp_planning.git
+$ git push nishida master
